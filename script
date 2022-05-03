@@ -1,0 +1,5 @@
+#!/bin/sh
+
+echo "Filename: "
+read nameOfFile
+touch ${nameOfFile}.txt
